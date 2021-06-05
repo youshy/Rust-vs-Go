@@ -21,4 +21,8 @@ This repo contains the same API built using Rust and Go. **If I won't be ultra l
 
 ## Notes
 
-As I don't know enough about Rust, I'm loosely following [this](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1) tutorial.
+~~As I don't know enough about Rust, I'm loosely following [this](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1) tutorial.~~ Turns out, this "tutorial" leaves out A TON of info...
+
+## Sources
+
+* [Rust book](https://doc.rust-lang.org/book/)
