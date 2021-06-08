@@ -7,13 +7,13 @@ This repo contains the same API built using Rust and Go. **If I won't be ultra l
 ## Design
 
 ```
-/tweets
+api/tweets
     GET: list last 50 tweets
     POST: create a new tweet
-/tweets/:id
+api/tweets/:id
     GET: find a tweet by its ID
     DELETE: delete a tweet by its ID
-/tweets/:id/likes
+api/tweets/:id/likes
     GET: list all likes attached to a tweet
     POST: add +1 like to a tweet
     DELETE: add -1 like to a tweet
