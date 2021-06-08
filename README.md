@@ -6,6 +6,17 @@ This repo contains the same API built using Rust and Go. **If I won't be ultra l
 
 ## Design
 
+Tweet struct:
+
+```
+ID: uuid
+Author: string
+Body: string
+Likes: int
+```
+
+API routes:
+
 ```
 api/tweets
     GET: list last 50 tweets
@@ -18,6 +29,10 @@ api/tweets/:id/likes
     POST: add +1 like to a tweet
     DELETE: add -1 like to a tweet
 ```
+
+Database:
+
+Postgres, but designed as plug-in, so we can change the db anytime.
 
 ## Notes
 
