@@ -38,6 +38,11 @@ Postgres, but designed as plug-in, so we can change the db anytime.
 
 ~~As I don't know enough about Rust, I'm loosely following [this](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1) tutorial.~~ Turns out, this "tutorial" leaves out A TON of info...
 
+More sources:
+
+* [this](https://medium.com/swlh/build-your-first-rest-api-using-rust-language-and-actix-framework-8f827175b30f)
+* [and this](https://blog.logrocket.com/create-a-backend-api-with-rust-and-postgres/)
+
 ## Sources
 
 * [Rust book](https://doc.rust-lang.org/book/)
